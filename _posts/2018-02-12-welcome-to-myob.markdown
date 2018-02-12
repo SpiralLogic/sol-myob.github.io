@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to MYOB!"
 date:   2018-02-12 16:42:01 +1100
-categories: jekyll update
+categories: myob update
 ---
 
 My first day at MYOB (excluding orientation week) I tasked myself with the challenge of building a Jekyll blog without forking it from somewhere else.
