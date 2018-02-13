@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "TDD workshop"
+date:   2018-02-13 14:42:01 +1000
+categories: TDD
+---
+
+This post really has 2 purposes, to see how the new blog handles more than 1 post and to discuss the workshop for today.
+
+The workshop for today was Testing Driven Development, facilitated by Matt Dunn and Preethi
+
+As today was the first iteration of the workshop there were a few hitches, including some of us not having yet setup ssh keys for our github profiles, not having IntelliJ setup and most commonly Gradle not liking our current IntelliJ configuration.
+
+The presentation itself outline the following steps for a TDD methodology:
+1. break down the goal into several smaller tasks, that as a sum will achieve the goal
+2. Begin the TDD process by writing a test which should pass if it's corresponding task has an actual implementation
+3. Write the minimal amount of code requried to make the test pass
+4. Write a new test that for the next task from the goal breakdown
+5. Write the minimal amount of code required to make this new test pass
+6. Continue steps 4-5 until all of the tasks are complete
+7. Look for any refactoring oppotunities (i.e. removing duplicate code). Any refactoring shouldn't break any tests!
+8. The goal should be achieved.
+
+Some key take aways:
+1. TDD itself is an iterative process designed to accomplish an end goal
+2. Any edge cases and boundary cases which should be considered a part of the problem should have test cases implemented aas well, generally after the main goal has been achieved but not created during the refactoring phase.
+
+We were then given 3 TDD problems to practice with which could be found here: [TDD-Excercises]
+
+And so concludes by second blog entry ;)
+
+[TDD-Excercises]; https://github.com/MYOB-Technology/intro-to-tdd
