@@ -15,38 +15,6 @@
       <div class="container">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-{{content}}
-
-{% assign previous_post_date = "0000" %}
-{% assign general_posts = site.posts %}
-
-<ul>
-  {% for post in  general_posts limit:20 %}
-    {% assign current_post_date =  post.date | date: "%m%y" %}
-
-    {% if current_post_date != previous_post_date %}
-        <h2> {{ post.date | date: "%B, %Y" }} </h2>
-    {% endif %}
-
-    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><br>
-
-    <div class="mobile visible-sm visible-xs"><br></div>
-
-    {% assign previous_post_date = current_post_date %}
-
-    {% if current_post_date != previous_post_date %}
-        <br>
-    {% endif %}
-  {% endfor %}
-
-</ul>
-
-      </section>
 
         <section id="downloads">
           {% if site.show_downloads %}
@@ -55,7 +23,13 @@
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+      </div>
+    </header>
 
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
     </div>
 
     {% if site.google_analytics %}
