@@ -25,8 +25,11 @@ github_username:  sjennings-myob
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hacker
+paginate:          5
+paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

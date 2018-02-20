@@ -1,1 +1,1 @@
-# sjennings-myob.github.io
+# Sol's MYOB blog

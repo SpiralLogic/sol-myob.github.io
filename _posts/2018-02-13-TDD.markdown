@@ -28,6 +28,6 @@ Some key take aways:
 
 We were then given 3 TDD problems to practice with which could be found here: [TDD-Exercises]
 
-And so concludes by second blog entry ;)
+And so concludes my second blog entry ;)
 
-[TDD-Excercises]: https://github.com/MYOB-Technology/intro-to-tdd
+[TDD-Exercises]: https://github.com/MYOB-Technology/intro-to-tdd
