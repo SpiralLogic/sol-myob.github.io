@@ -3,7 +3,7 @@ layout: default
 title: Developer/Learning Tools
 ---
 
-## Developer tools i have found useful
+## Developer tools I have found useful
 
 ### Online Execution tools
 [C#](https://dotnetfiddle.net/) C# Online Compiler<br>
