@@ -14,7 +14,12 @@ title: Developer/Learning Tools
 [Typing Speed Test](https://typing-speed-test.aoeu.eu/) Online typing speed tester<br>
 
 ### Online Learning
-[Katacoda](https://katacoda.com/) Interactive Technical Learning (Cloud, Docker, Kubernetes, ML, Git)  
+[KataCoda](https://katacoda.com/) Interactive Technical Learning (Cloud, Docker, Kubernetes, ML, Git)  
+[Git Branching](https://learngitbranching.js.org/) Git branching Online Game  
+[Code Wars](https://www.codewars.com/) Achieve Mastery Through Challenge  
+[Code School](https://www.codeschool.com/) Interactive Learning Destination for aspiring and experience developers  
+[PluralSight](https://www.pluralsight.com/) Developer, IT and Cyber Security Training  
+
 
 ### Online Documentation
 [Liquid](https://shopify.github.io/liquid) Online template engine used by Jekyll Blog (and Shopify)  
