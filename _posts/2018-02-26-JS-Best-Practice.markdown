@@ -52,6 +52,19 @@ It has been a while since I have done any major JS projects (pre 2014 😲). Thi
 - **eval** affects legibility, ability to debug and performance. Using eval to parse JSON is vulnerable and unsafe as it will evaluate any script
 - **no brackets** don't leave curly brackets off code to make sure that it is scoped to the right block
 
+#### Level 4 - Module Namespace, Anonymous closures, global imports, Augmentation
+- Namespace can limit global impact and provide data protection, namespaces are usually fully capitalised.
+- Nested namespaces are also used frequently
+- **IIFE** Immediately Invoked Function Expression
+- Return an object containing the public properties in an IIFE
+- namespace depth search is an expensive process, pass required globals into the IIFE so that they are faster and clear.
+
+##### Augmentation
+1. `var ARMORY = (function(wartime){ ... })()`
+2. `ARMORY = (function(ARMORY){ ... })()` note: no `var` keyword, old namespace is passed in as a global import
+- previous private data will not be accessible to the new properties
+- group file content around needed data
+
 
 #### Conclusion
 This course remove some of the rustiness I have accumulated in JS. However it was only halfway through the videos I realized they were created in 2014, which means no ES2015+.
