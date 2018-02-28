@@ -3,6 +3,7 @@ layout: post
 title:  "Pair Programming Workshop"
 date:   2018-02-14 11:45:01 +1000
 categories: TDD pair-programming
+tags: TDD pair-programming
 ---
 
 Today consisted of a workshop which allowed us to learn the methodology of and experience pair programming, specifically when doing TDD.
