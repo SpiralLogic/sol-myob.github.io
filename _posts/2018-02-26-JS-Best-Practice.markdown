@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JS Best Practice Notes"
-date:   2018-02-36 16:42:01 +1100
+date:   2018-02-28 16:42:01 +1100
 categories: Javascript CodeSchool Notes
 tags: Javascript CodeSchool Notes
 ---
