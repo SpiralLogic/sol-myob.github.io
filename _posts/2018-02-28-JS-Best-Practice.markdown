@@ -8,17 +8,17 @@ tags: Javascript CodeSchool Notes
 
 It has been a while since I have done any major JS projects (pre 2014 😲). This means that although I have attempted to keep up to date with JS and it's developments (ES2015+) it isn't quite as easy to keep up with best practice. So this is a summary of my learning from following the CodeSchool [JS Best Practice](http://campus.codeschool.com/courses/javascript-best-practices/l) course.
 
-#### Javascript Best Practices
+### Javascript Best Practices
 
-##### Level 1 - Ternary Conditionals, Logical Assignments, Switch Blocks
+#### Level 1 - Ternary Conditionals, Logical Assignments, Switch Blocks
 - **Falsy Values**: false, 0, undefined, NaN, empty string, null
 - **Ternaries**: Use parentheses 'condition ? true : false' to ensure the conditional is check correctly
 - Multiple actions can be performed in ternaries:
 `condition ? (first = "test", second = "test2") : third = "stuff"`
-- **Short Circuit `||` and `&&`**: || Can be used as logical assignment to check if a property on an object exists and if it doesn't assign it. `obj.prop = obj.prop || []` set's obj.prop as an empty array if prop isn't set. If none of the values are true when using a short circuit || the last value will be assigned.
+- **Short Circuit**: `||` and `&&`. Can be used as logical assignment to check if a property on an object exists and if it doesn't assign it. `obj.prop = obj.prop || []` set's obj.prop as an empty array if prop isn't set. If none of the values are true when using a short circuit || the last value will be assigned.
 - **switch block**: allow fall through. Each `case` statement should have a `break`
 
-##### Level 2 - Loop Optimization, Script Execution, Performance & Measuring Performance
+#### Level 2 - Loop Optimization, Script Execution, Performance & Measuring Performance
 - Assign `.length` evaluation to a cached value. This can be assigned inside the for construct `for(var i = 0, x = something.length; i < x; i++)`
 - Assign lists stored on objects to a cached variable
 - Stick to for loops to avoid accessing all of the array prototype properties when using `for in`
@@ -32,7 +32,7 @@ It has been a while since I have done any major JS projects (pre 2014 😲). Thi
 - Use `console.time(string)` && `console.timeEnd(string)` to measure the time to execute a block of code
 - Adding a `+` unary operator in front of a Date object asks for the value in milliseconds
 
-##### Level 3 - Comparisons, Exception Handling, Bad Stuff, Numbers
+#### Level 3 - Comparisons, Exception Handling, Bad Stuff, Numbers
 - `==` performs type coersion before comparison
 - `===` compares both type and contents (strict equality)
 - `instanceof` can be used to check that an objects inherits from another
@@ -47,7 +47,7 @@ It has been a while since I have done any major JS projects (pre 2014 😲). Thi
 - `isNaN("42")` is false
 - use `typeof data === "number" && !isNaN(data)`
 
-###### AVOID
+#### AVOID
 - **with** unreliable and expensive, building new properties end up as global variables. Use variables instead to cache objects you need to access often
 - **eval** affects legibility, ability to debug and performance. Using eval to parse JSON is vulnerable and unsafe as it will evaluate any script
 - **no brackets** don't leave curly brackets off code to make sure that it is scoped to the right block
@@ -59,12 +59,12 @@ It has been a while since I have done any major JS projects (pre 2014 😲). Thi
 - Return an object containing the public properties in an IIFE
 - namespace depth search is an expensive process, pass required globals into the IIFE so that they are faster and clear.
 
-##### Augmentation
+#### Augmentation
 1. `var ARMORY = (function(wartime){ ... })()`
 2. `ARMORY = (function(ARMORY){ ... })()` note: no `var` keyword, old namespace is passed in as a global import
 - previous private data will not be accessible to the new properties
 - group file content around needed data
 
 
-#### Conclusion
+### Conclusion
 This course remove some of the rustiness I have accumulated in JS. However it was only halfway through the videos I realized they were created in 2014, which means no ES2015+.

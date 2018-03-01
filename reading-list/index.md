@@ -7,8 +7,9 @@ This page contains a list of books that I have recently read and a link my summa
 
 ## Read
 * Apprenticeship Patterns, Guidance for the aspiring software craftsmen [Dave Hoover, Adewale Oshineye](http://shop.oreilly.com/product/9780596518387.do)
+* New Programmer's Survival Manual [Josh Carter](https://pragprog.com/book/jcdeg/new-programmer-s-survival-manual)
 
 ## Reading
-* New Programmer's Survival Manual [Josh Carter](https://pragprog.com/book/jcdeg/new-programmer-s-survival-manual)
+* The Passionate Programmer [Chad Fowler](https://pragprog.com/book/cfcar2/the-passionate-programmer)
 
 ## To Read
