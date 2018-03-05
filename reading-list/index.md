@@ -13,3 +13,5 @@ This page contains a list of books that I have recently read and a link my summa
 * The Passionate Programmer [Chad Fowler](https://pragprog.com/book/cfcar2/the-passionate-programmer)
 
 ## To Read
+### Recommendations from Apprenticeship patterns
+* Working effectively with Legacy Code [Michael Feathers](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) 
