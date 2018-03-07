@@ -26,6 +26,9 @@ title: Developer/Learning Tools
 
 ### Code Reviews
 [How to do code reviews like a human](https://mtlynch.io/human-code-reviews-1/) A great article about how to give/receive code reviews
+[Source code worth studying](https://medium.com/@012parth/what-source-code-is-worth-studying-8755f88f8de5)
 
 ### Tips & Tricks
-[Javascript Debugging on the Console](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)  10 Tips for Javascript Debugging Like a PRO with Console 
+[Javascript Debugging on the Console](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)  10 Tips for Javascript Debugging Like a PRO with Console
+
+[Awesome Lists](https://github.com/search?q=topic%3Aawesome&type=Repositories)

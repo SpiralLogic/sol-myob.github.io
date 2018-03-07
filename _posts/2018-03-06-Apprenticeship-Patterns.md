@@ -112,10 +112,64 @@ You must fight this tendency toward mediocrity by seeking out and learning about
  ### Expand Your Bandwidth
  * drink from the fire hose of information
  
- ## Practice, Practice, Practice
+ ### Practice, Practice, Practice
  * A Kata is a choreographed sequence of movements provided by a master to help his students internalize the fundamentals of the art.
  
- ## Breakable Toys
- * I have been creating a word cloud in c#/WPF this is what I would consider my breakable toy
-   
+ ### Breakable Toys
+ * I have been creating a word cloud in c#/WPF this is what I would consider my breakable toy [Word Cloud](https://github.com/SpiralLogic/WordCloud)
+ * Budget for failure by designing and building toy systems that are similar in toolset, but not scope to the systems you build at work
+ * The Breakable Toys pattern is similar to Be the Worse, bu that pattern is about finding a team where you can grow. Breakable Toys is more about deliberately creating opportunities to learn by stepping beyond your boundaries and single-handedly building complete software projects. It is also related to The White Belt and Confront Your Ignorance, but is less focused on letting go of your previous knowledge
+ 
+ ### Use The Source - Seek out other people's source code
+ Here are a few links I have found containing good open source projects:
+ 
+[What source code is worth studying](https://medium.com/@012parth/what-source-code-is-worth-studying-8755f88f8de5)
+[Awesome Lists](https://github.com/search?q=topic%3Aawesome&type=Repositories)
+
+* People who can quickly absorb knowledge directly from the code soon become much better programmers, because their teacher is every line of code written by every programmer every born
+
+### Record What You Learn
+* Keep a record of your journey
+
+### Share What You Learn
+* Being part of a community of individuals where both learning on your own and humbly sharing that newly acquired knowledge are valued as one of the most powerful aspects of apprenticeship, It makes otherwise-esoteric fields of knowledge suddenly accessible, and provides apprentices with guides who speak their language.
+* When one person teaches, two people learn
+
+### Create Feedback Loops
+* Create mechanisms for regularly gathering more or less objective external data about your performance. By soliciting feedback early, often, and effectively, you increase the probability that you will at least be conscious of your incompetence.
+
+
+### Summing up
+* Software is not a product, it's a medium for storing knowledge. Therefore, software development is not a product producing activity, it is a knowledge acquiring activity. Knowledge is just the other side of the coin of ignorance, therefore software development is an ignorance-reduction activity.
+
+## [Construct Your Curriculum](https://sjennings-myob.github.io/reading-list/)
+* Maintain a Reading List to track the books you plan to read and remember the books you've read.
+
+### Read Constantly
+* Dave spent 90 mins a day on the train to read whatever he wanted (**I am currently taking the long train so I can do the same**). He was so intent that he would continue reading when he got off the train and walked the mile to his cubicle.
+* Reading occasional research paper will stretch your mind and keep you in touch with the cutting edge of computer science, and also offers a source of challenging new ideas. Trying to implement these ideas will expand your toolbox with new algorithms, data structures, and design patterns many years before they reach the mainstream.
+
+### Dig Deeper
+* Debugging, decompiling and reverse-engineering, and read the specification, RFC, or standards for the technologies you use.
+* Examples of this for me have been
+    * Using .DotTrace to dig into third part library code
+    * Digging into the .Net Framework source code to understand how it (and especially WPF are implemented)
+    * Not taking StackOverflow answers at face value and finding evidence for this within the source code
+    * Reading WC3 specifications on upcoming HTML/CSS features
+    * Reading ECMA standards for C# and ECMAScript
+    * Reading RFCs for PHP and C#
+* With all this focus on understanding technologies and tools in depth, you need to take care not to accidentally become a narrow specialist.
+* Instead continue to seek out opportunities to Be The Worst. Challenge yourself to assemble useful tools from these fundamental building blocks, rather than just basking in your ability to take things apart.
+
+### Familiar Tools
+* Identify and focus on a familiar set of tools (**JetBrains**). Ideally, these are the tools where you no longer need the documentation - you either know all the best practices, gotchas and FAQs by heart. Or you have recorded them.
+* In time all your favorite tools will become junk
+
+## Conclusion
+* Masters should be pestered to explain themselves, to dredge out the assemblage of clues and moves they have in silence within
+* Skill matters so much because we don't understand what we do well enough to write it down in a format where anyone can apply it and achieve the same results
+* [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+* When we say something is a craft, one of the things we mean is that it is a discipline and a tradition that places a high value on skill. THis includes acquiring, growing and eventually transmitting skill. We believe true mastery is shown in the effect you have on others by transmitting your superior skill.
+* Mere genius is not mastery, but if a person is able to train others to equal or surpass his genius, then it becomes evident that person is a potential master (**This is along the lines of what I always used to tell my staff whilst a manager at Safeway**)
+* On a scale of 1 to 10 we'd rate ourselves as 9s but sometimes we meet people who make us realize that the scale goes all the way up to 100. There are many practitioners that we deeply respect, but the craft of software development is still lacking masters. 
  
