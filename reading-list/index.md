@@ -14,4 +14,5 @@ This page contains a list of books that I have recently read and a link my summa
 
 ## To Read
 ### Recommendations from Apprenticeship patterns
-* Working effectively with Legacy Code [Michael Feathers](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) 
+* Working effectively with Legacy Code [Michael Feathers](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
+* Mastery [George Leonard](https://www.amazon.com.au/Mastery-Keys-Success-Long-Term-Fulfillment/dp/0452267560) 
