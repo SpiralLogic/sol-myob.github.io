@@ -41,7 +41,7 @@ Apprenticeship -> Journeyman -> Master
 * Hiring managers take a leap of faith in choosing you
 * __Collect CV's of people whose skills you respect__
 > Like most people who come to programming "later" in life, I brought a bunch of life experience with me, far more than your average programmer with six months of experience. I had developed all sorts of interpersonal skills and psychological insights in my previous career. As I progressed as a programmer, I would meet people who would get very excited about my past and this led me to occasionally overvalue these softer skills, or overpursue nontechnical topics. To be sure, my soft skill have served me well and have helped me tremendously in many situations; however. I have had to let these skills atrophy a bit in order to focus the majority of my attention on developing my technical skills, which was obviously the are where I was most lacking. I didn't switch careers so I could be a therapist to programmers; I switched careers because I love the act of crafting software. - Dave Hoover
-* **Collect CVs of people who's skills you respect** (linked in too)
+* **Collect CVs of people who's skills you respect** (LinkedIn too)
 
 ### Expose your ignorance
 * Conceding to unspoken pressures and telling people what they want to hear is not a good way to build strong relationships. Tell people the truth. Let them know that you're starting to understand what they want and you're in the process of learning how to give it to them.
