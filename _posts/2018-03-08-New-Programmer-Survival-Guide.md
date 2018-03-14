@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Programmer Survival Guide Nots"
+title:  "New Programmer Survival Guide Notes"
 date:   2018-03-08 09:00:01 +1100
 categories: book
 tags: book

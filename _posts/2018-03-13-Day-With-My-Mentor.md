@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New Programmer Survival Guide Nots"
-date:   2018-03-14 09:00:01 +1100
+title:  "Day with my Mentor"
+date:   2018-03-13 09:00:01 +1100
 categories: mentor myob
 tags: mentor myob
 ---
