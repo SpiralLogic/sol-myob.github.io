@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Day with my Mentor"
+title:  "Days with my Mentor"
 date:   2018-03-13 09:00:01 +1100
 categories: mentor myob
 tags: mentor myob
@@ -20,19 +20,21 @@ The developers of the team then have a group code review. As their team commits 
 
 One member of the group takes notes about the code including things of concern or things that aren't yet finished and the final notes are messaged to the group via slack. The meeting takes about 30-45 mins each day and other than peer programming is their only form of code review.
 
-## Card Acceptance
-Before any ticket/card can be moved from the backlog into the currently accepted work it must go through an acceptance. This processes involves the other devs and QA to ensure that the acceptance criteria on the card is well defined and testable. When each member agrees with the acceptance criteria of the card it can move into the doing column of their Kanban board. The board is also represented digitally in Jira. Each card's number (beginning with SAB for Sales And Billing) comes from the Jira number designation.
+## Card Kick off
+Before any ticket/card can be moved from the backlog into the currently accepted work it must go through a "card kick off". This processes involves the other devs and QA to ensure that the acceptance criteria on the card is well defined and testable. When each member agrees with the acceptance criteria of the card it can move into the doing column of their Kanban board. The board is also represented digitally in Jira. Each card's number (beginning with SAB for Sales And Billing) comes from the Jira number designation.
 
 ## Peer Programming - 1:00 +
 I then had the opportunity to peer program on production code with my mentor to understand and experience the process and methodology of their team.
 
 ### Languages Used
-* Scala
-* Akka
-* HTML/CSS
+* [Scala](https://www.scala-lang.org/) - functional based programming language built on java
+* [Akka](https://akka.io/) - Scala/Java toolkit, it provides concurrency, [actors](https://en.wikipedia.org/wiki/Actor_model) 
+    * Spray Toolkit - webserver/rest api/dsl implemented using akka 1
+* HTML/CSS - web markup and styling languages
+* [Flying Saucer](https://github.com/flyingsaucerproject/flyingsaucer) - Java library for rendering XML (XHTML) using CSS 2.1 for layout and formatting, this is used to output HTML to PDF  
 
 ### Methodology
-* Pull often to ensure working with the latest code
+* Pull often to ensure working with the latest code (as members of the team are committing consistently throughout the day)
 * Run tests before pushing to ensure that nothing is broken (hopefully)
 * Commits are made straight to master and are therefore in production from commit (although currently no one is using the production code as the code is for a new internal invoice generation system)
-* CI runs all of the tests a second time to make sure that they are all passing, a set of performance tests are also run.
+* CI runs all of the tests a second time to make sure that they are all passing, a set of performance tests are also run.`
