@@ -2,8 +2,8 @@
 layout: post
 title:  "Ian Cooper - TDD Presentation Notes"
 date:   2018-03-16 09:00:01 +1100
-categories: TDD DevTernity
-tags: TDD DevTernity Ian-Cooper
+categories: [TDD,DevTernity]
+tags: [TDD,DevTernity]
 ---
 
 # Introduction

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Composition Vs Inheritance"
+title:  "Exceptions in Java"
 date:   2018-03-16 09:00:01 +1100
-categories: composition inheritance peer-programming
-tags: composition inheritance peer-programming
+categories: [exceptions]
+tags: [exceptions]
 ---
 
 # Introduction
