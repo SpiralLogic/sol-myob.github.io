@@ -6,7 +6,7 @@ categories: [TDD,DevTernity]
 tags: [TDD,DevTernity]
 ---
 
-# Introduction
+# Ian Cooper - TDD Presentation Notes
 This is a notes on the TDD presentation given by Ian Cooper at DevTernity in 2017 on [YouTube](https://www.youtube.com/watch?v=EZ05e7EMOLM&feature=youtu.be)
 
 ## Notes

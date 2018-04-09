@@ -6,7 +6,7 @@ categories: [exceptions]
 tags: [exceptions]
 ---
 
-# Introduction
+# Exceptions in Java
 A few weeks ago I gave an ad-hoc presentation to the protege group on Exceptions and when to use them. Specifically in the context of Java. This post will summaries some of those points.
 
 ## Types of exceptions in Java
