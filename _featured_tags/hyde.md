@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: Tools
+slug: tools
 menu: true
 order: 1
 description: >
