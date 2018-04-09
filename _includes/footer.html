@@ -1,9 +1,16 @@
-<footer>
-    <section id="downloads">
-        {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-        {% endif %}
-        <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-    </section>
+<footer role="contentinfo">
+  <hr/>
+  {% if site.copyright.size > 0 %}
+    <p><small class="copyright">{{ site.copyright | markdownify | replace:'<p>','' | replace:'</p>','' }}</small></p>
+  {% endif %}
+  {% if site.legal.size > 0 %}
+    <nav class="legal"><small>
+    {% for le in site.legal %}
+      <a href="{% include smart-url url=le.href %}">{{ le.name | default:le.title }}</a>
+      {% unless forloop.last %}{{ site.data.strings.separator | default:'|' }}{% endunless %}
+    {% endfor %}
+    </small></nav>
+  {% endif %}
+  <hr class="sr-only"/>
 </footer>
+
