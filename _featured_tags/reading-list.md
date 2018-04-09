@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Reading List
-slug: reading-list
+slug: /reading-list
 menu: true
 order: 2
 description: >

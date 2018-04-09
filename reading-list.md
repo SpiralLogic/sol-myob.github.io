@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Reading List
+menu: true
+slug: reading-list
 ---
 
 This page contains a list of books that I have recently read and a link my summary post as well as a list of books on the reading list.
