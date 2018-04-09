@@ -2,6 +2,7 @@
 title: Developer/Learning Tools
 slug: tools
 menu: true
+layout: default
 ---
 
 ## Developer tools I have found useful
