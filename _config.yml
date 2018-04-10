@@ -103,7 +103,6 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 hydejack:
   # Configure the order of complementary content on blog posts
   post_addons:         [about, newsletter, related]
-
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other]
 
