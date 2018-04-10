@@ -6,5 +6,5 @@ categories: docker katacoda
 tags: katacoda
 ---
 
-# Introduction
+# Docker Notes
 This is a summary of my notes/learning from the completing the scenarios on docker at [KataCoda.com](http://www.katacoda.com) let

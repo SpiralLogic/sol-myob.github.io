@@ -6,7 +6,7 @@ categories: book
 tags: book
 ---
 
-# Introduction
+# Apprenticeship Patterns
 I found the Apprenticeship patterns book a fascinating read. Many of the topics in the book have resonated with my life journey and experiences. This blog post is less a review on this book and more notes on my how I have found each chapter speaks to me in my past, present and future.
 
 Initially this will be a summary of my notes from the book and will over time develop.
