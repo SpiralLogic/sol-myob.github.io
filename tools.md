@@ -3,6 +3,7 @@ title: Tools
 slug: tools
 menu: true
 layout: default
+order: 2
 ---
 
 ## Developer tools I have found useful
