@@ -1,5 +1,5 @@
 ---
-title: Developer/Learning Tools
+title: Tools
 slug: tools
 menu: true
 layout: default
