@@ -18,7 +18,8 @@ Rest also has 6 guiding restraints which restrict the ways that the server may p
 ## HTTP Based REST
 I applied REST to my TicTacToe game through HTTP. HTTP Methods apply to REST in the following way:
 * **Get** provides details about the entity at the end point without changing it's state or having any side effects (use to get the current state of the game in play)
-* **Put** updates the entity at the end point (used to make a turn in the game)
+* **Put** updates the entire entity at the end point (used to make a turn in the game)
+* **Patch** updates on one field at the end point
 * **Post** creates a new entity at the end point (used to start a new game)
 * **Delete** deletes the entity at the end point (not used in my game)
 
