@@ -1,6 +1,14 @@
-Docker Notes:
+---
+layout: post
+title:  "Kata Koda - Docker Notes"
+date:   2018-03-26 09:00:01 +1100
+tags: ["docker","katacoda.com"]
+---
 
+#Docker Notes.
+Docker Notes and tips from the KataCoda.com docter interactive tutorials
 
+## Notes
 Download and run a docker image as a container, the -d flag will demonize it:
 `docker run -d [image-name]`
 

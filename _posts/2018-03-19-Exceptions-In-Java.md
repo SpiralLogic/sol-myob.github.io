@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Exceptions in Java"
-date:   2018-03-16 09:00:01 +1100
+date:   2018-03-19 09:00:01 +1100
 categories: [exceptions]
 tags: [exceptions]
 ---
