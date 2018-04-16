@@ -38,6 +38,6 @@ HTTP response codes can also be used in relation to REST Requests
 
 ## Useful tools
 A list of useful tools for analyzing and creating REST services:
-[Postman](https://www.getpostman.com/) - for making requests and seeing their responses
-[Fiddler](https://www.telerik.com/fiddler) - analyzing network traffic on windows
-[WireShark](https://www.wireshark.org/) - analyzing network traffic on OSX
+[Postman](https://www.getpostman.com/) - for making requests and seeing their responses  
+[Fiddler](https://www.telerik.com/fiddler) - analyzing network traffic on windows  
+[WireShark](https://www.wireshark.org/) - analyzing network traffic on OSX  
